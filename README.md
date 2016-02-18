@@ -43,13 +43,13 @@ You can upload specific file into your container using this URI :
 You have to specify the container in the URI which you want to upload a specific file.
 You have to pass a JSON too for give a description of your file to upload : 
 
-`
+```
 {
 	"blob": "nameOfYourBlob",
 	"pathFile": "C:\\Users\\Me\\Desktop",
 	"nameFile": "example.txt"
 }
-`
+```
 
 If the file is a `.zip`, it will be unzipped on your local folder and files into your `.zip` file will be uploaded.
 
@@ -67,14 +67,14 @@ You can download specific file from your container using this URI :
 You have to specify the container in the URI which you want to upload a specific file.
 You have to pass a JSON too for give a description of your file to upload : 
 
-`
+```
 {
 	"blob": "nameOfYourBlob",
 	"pathBlobFile": "facultative\\Path",
 	"nameBlobFile": "example.txt",
 	"pathLocalFolder": "C:\\Users\\Me\\Desktop\\downloadHere"
 }
-`
+```
 
 #### Return 
 This API will return to you a String which give you your transaction status or an error report.
@@ -90,14 +90,14 @@ You can download specific file from your container using this URI :
 You have to specify the container in the URI which you want to upload a zip file.
 You have to pass a JSON too for give a description of your file to upload : 
 
-`
+```
 {
 	"blob": "nameOfYourBlob",
 	"pathBlobFile": "facultative\\Path",
 	"nameBlobFile": "example.zip",
 	"pathLocalFolder": "C:\\Users\\Me\\Desktop\\downloadHere"
 }
-`
+```
 
 #### Return 
 This API will return to you a String which give you your transaction status or an error report.
@@ -113,11 +113,11 @@ You can zip a specific folder and upload zip folder to your container using this
 You have to specify the container in the URI which you want to upload a zip file.
 You have to pass a JSON too for give a description of your file to upload : 
 
-`
+```
 {
 	"pathFolder": "C:\\path\\of\\a\\folder\\to\\zip\\and\\upload"
 }
-`
+```
 
 #### Return 
 This API will return to you a String which give you your transaction status or an error report.
