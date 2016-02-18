@@ -41,7 +41,7 @@ You can upload specific file into your container using this URI :
 
 #### Specifications 
 You have to specify the container in the URI which you want to upload a specific file.
-You have to pass a JSON too for give a description of your file to upload : 
+You have to pass a JSON too for giving some descriptions of your file to upload : 
 
 ```
 {
@@ -65,7 +65,7 @@ You can download specific file from your container using this URI :
 
 #### Specifications 
 You have to specify the container in the URI which you want to upload a specific file.
-You have to pass a JSON too for give a description of your file to upload : 
+You have to pass a JSON too for giving some descriptions of your file to download : 
 
 ```
 {
@@ -88,7 +88,7 @@ You can download specific file from your container using this URI :
 
 #### Specifications 
 You have to specify the container in the URI which you want to upload a zip file.
-You have to pass a JSON too for give a description of your file to upload : 
+You have to pass a JSON too for giving some descriptions of your zip to download : 
 
 ```
 {
@@ -111,7 +111,7 @@ You can zip a specific folder and upload zip folder to your container using this
 
 #### Specifications 
 You have to specify the container in the URI which you want to upload a zip file.
-You have to pass a JSON too for give a description of your file to upload : 
+You have to pass a JSON too for giving some descriptions of your folder to zip and upload these : 
 
 ```
 {
