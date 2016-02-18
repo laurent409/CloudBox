@@ -10,7 +10,7 @@ You can interact with your blobs into containers like upload, download, zip and 
 ### - List Blobs Folders (GET Method) 
 
 #### URI
-You can list you folders into your container using this URI : 
+You can list your folders into your container using this URI : 
 
 `/Service1.svc/{container}/all-folders`
 
@@ -21,8 +21,9 @@ You have to specify the container in the URI which you want to get folders list.
 This API will return to you an object with all details of folders into your specific container.
 
 ### - List Blobs Files (GET Method)
+
 #### URI
-You can list you files into your container using this URI : 
+You can list your files into your container using this URI : 
 
 `/Service1.svc/{container}/{folder}/all-files`
 
@@ -35,7 +36,7 @@ This API will return to you an object with all details of folders into your spec
 ### - Upload a specific file (POST Method)
 
 #### URI
-You can upload specific file into your container using this URI : 
+You can upload a specific file into your container using this URI : 
 
 `/Service1.svc/{container}/upload-file`
 
@@ -59,7 +60,7 @@ This API will return to you a String which give you your transaction status or a
 ### - Download a specific file (POST Method)
 
 #### URI
-You can download specific file from your container using this URI : 
+You can download a specific file from your container using this URI : 
 
 `/Service1.svc/{container}/download-file`
 
@@ -79,15 +80,15 @@ You have to pass a JSON too for giving some descriptions of your file to downloa
 #### Return 
 This API will return to you a String which give you your transaction status or an error report.
 
-### - Download a zip file (POST Method)
+### - Download a zip-file (POST Method)
 
 #### URI
-You can download specific file from your container using this URI : 
+You can download a specific zip-file from your container using this URI : 
 
 `/Service1.svc/{container}/download-zip`
 
 #### Specifications 
-You have to specify the container in the URI which you want to upload a zip file.
+You have to specify the container in the URI which you want to upload a zip-file.
 You have to pass a JSON too for giving some descriptions of your zip to download : 
 
 ```
@@ -105,12 +106,12 @@ This API will return to you a String which give you your transaction status or a
 ### - Upload a folder to archives-blob (POST Method)
 
 #### URI
-You can zip a specific folder and upload zip folder to your container using this URI : 
+You can zip a specific folder and upload zip-file to your container using this URI : 
 
 `/Service1.svc/{container}/upload-archive-file`
 
 #### Specifications 
-You have to specify the container in the URI which you want to upload a zip file.
+You have to specify the container in the URI which you want to upload the zip-file.
 You have to pass a JSON too for giving some descriptions of your folder to zip and upload these : 
 
 ```
