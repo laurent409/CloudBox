@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CloudBox" generation="1" functional="0" release="0" Id="47e22249-3bab-4326-bf72-f3dcd3f69c88" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CloudBox" generation="1" functional="0" release="0" Id="b641fdb8-2baa-420d-809f-a704d07d96a0" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="CloudBoxGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -70,9 +70,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="d346008f-ee3a-4592-9a6d-024ee679b2a3" ref="Microsoft.RedDog.Contract\ServiceContract\CloudBoxContract@ServiceDefinition">
+    <implementation Id="140fd062-299f-4648-989e-060c137d1471" ref="Microsoft.RedDog.Contract\ServiceContract\CloudBoxContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="1ec5ef99-97e5-42fc-b823-430059f7d31b" ref="Microsoft.RedDog.Contract\Interface\WCFServiceWebRole1:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="b49843c5-bacd-417f-8833-cb32b76ae06a" ref="Microsoft.RedDog.Contract\Interface\WCFServiceWebRole1:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/CloudBox/CloudBoxGroup/WCFServiceWebRole1:Endpoint1" />
           </inPort>

@@ -114,9 +114,10 @@ You can zip a specific folder from your blob and upload this to your container u
 You have to specify the container in the URI which you want to upload the zip-file.
 You have to pass a JSON too for giving some descriptions of your folder to zip and upload these : 
 
+
 ```
 {
-	"namePathFolder": "path\\with\\files"
+	"namePathFolder": "folder_with_files_into_it"
 }
 ```
 
@@ -124,9 +125,11 @@ or just
 
 ```
 {
-	"namePathFolder": "folder_with_files_into_it"
+	"namePathFolder": "path/with/files/into/this"
 }
 ```
+
+WARNING : For this API, use "/" and not "\\" !
 
 #### Return 
 This API will return to you a String which give you the transaction status or an error report.

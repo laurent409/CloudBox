@@ -1,17 +1,17 @@
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:32:06] Emulator config file set to C:\Users\Aymeric DAURELLE\Documents\Visual Studio 2015\Projects\CloudBox\CloudBox\csx\Debug\roles\WCFServiceWebRole1\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:32:06] DiagnosticsStoreRootPath set to: C:\Users\Aymeric DAURELLE\AppData\Local\dftmp\Resources\d198bff9-343b-4794-b15a-309775b43bb5
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:32:06] Loading config file: C:\Users\Aymeric DAURELLE\Documents\Visual Studio 2015\Projects\CloudBox\CloudBox\csx\Debug\roles\WCFServiceWebRole1\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:32:06] Config file to read: C:\Users\Aymeric DAURELLE\Documents\Visual Studio 2015\Projects\CloudBox\CloudBox\csx\Debug\roles\WCFServiceWebRole1\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:32:06] Checking VM Type
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:32:06] Emulator config file set to C:\Users\Aymeric DAURELLE\Documents\Visual Studio 2015\Projects\CloudBox\CloudBox\csx\Debug\roles\WCFServiceWebRole1\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:32:06] Extension set to Emulator Mode
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:32:06] Reading XML configuration file
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:32:06] Bypassing private config decryption
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:32:06] Stopping the running plugin, if any
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:32:07] No DiagnosticsPlugin is running.
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:32:07] Killing any DiagnosticsPlugin that might remain.
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:32:07] Killing any MonAgentHost that might remain.
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:32:08] Diagnostics plugin stopped successfully
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:32:08] Resetting DiagnosticPlugin
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:33:19] DiagnosticsPlugin launched successfully with new configuration
-DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 14:33:19] DiagnosticPlugin exited with code 0
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:26:45] Emulator config file set to C:\Users\Aymeric DAURELLE\Documents\Visual Studio 2015\Projects\CloudBox\CloudBox\csx\Debug\roles\WCFServiceWebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:26:45] DiagnosticsStoreRootPath set to: C:\Users\Aymeric DAURELLE\AppData\Local\dftmp\Resources\f73a8776-593c-4393-b046-ef509b59b2eb
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:26:45] Loading config file: C:\Users\Aymeric DAURELLE\Documents\Visual Studio 2015\Projects\CloudBox\CloudBox\csx\Debug\roles\WCFServiceWebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:26:45] Config file to read: C:\Users\Aymeric DAURELLE\Documents\Visual Studio 2015\Projects\CloudBox\CloudBox\csx\Debug\roles\WCFServiceWebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:26:45] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:26:45] Emulator config file set to C:\Users\Aymeric DAURELLE\Documents\Visual Studio 2015\Projects\CloudBox\CloudBox\csx\Debug\roles\WCFServiceWebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:26:45] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:26:45] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:26:45] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:26:45] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:26:46] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:26:46] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:26:46] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:26:47] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:26:47] Resetting DiagnosticPlugin
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:27:58] DiagnosticsPlugin launched successfully with new configuration
+DiagnosticsPluginLauncher.exe Information: 0 : [19/02/2016 16:27:58] DiagnosticPlugin exited with code 0
