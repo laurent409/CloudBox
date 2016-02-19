@@ -25,10 +25,10 @@
     </Endpoints>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="L:\DotNET\Projets C#\CloudBox\CloudBox\rcf\Debug\WCFServiceWebRole1Content\" />
+        <SourceDirectory path="C:\Users\Aymeric DAURELLE\Documents\Visual Studio 2015\Projects\CloudBox\CloudBox\rcf\Debug\WCFServiceWebRole1Content\" />
       </Content>
       <Content destination=".\">
-        <SourceDirectory path="L:\DotNET\Projets C#\CloudBox\CloudBox\ecf\WCFServiceWebRole1Content\" />
+        <SourceDirectory path="C:\Users\Aymeric DAURELLE\Documents\Visual Studio 2015\Projects\CloudBox\CloudBox\ecf\WCFServiceWebRole1Content\" />
       </Content>
     </Contents>
     <Imports>

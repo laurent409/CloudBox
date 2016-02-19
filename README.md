@@ -78,7 +78,7 @@ You have to pass a JSON too for giving some descriptions of your file to downloa
 ```
 
 #### Return 
-This API will return to you a String which give you your transaction status or an error report.
+This API will return to you a String which give you the transaction status or an error report.
 
 ### - Download a zip-file (POST Method)
 
@@ -101,12 +101,12 @@ You have to pass a JSON too for giving some descriptions of your zip to download
 ```
 
 #### Return 
-This API will return to you a String which give you your transaction status or an error report.
+This API will return to you a String which give you the transaction status or an error report.
 
 ### - Upload a folder to archives-blob (POST Method)
 
 #### URI
-You can zip a specific folder and upload zip-file to your container using this URI : 
+You can zip a specific folder from your blob and upload this to your container using this URI : 
 
 `/Service1.svc/{container}/upload-archive-file`
 
@@ -116,9 +116,17 @@ You have to pass a JSON too for giving some descriptions of your folder to zip a
 
 ```
 {
-	"pathFolder": "C:\\path\\of\\a\\folder\\to\\zip\\and\\upload"
+	"namePathFolder": "path\\with\\files"
+}
+```
+
+or just 
+
+```
+{
+	"namePathFolder": "folder_with_files_into_it"
 }
 ```
 
 #### Return 
-This API will return to you a String which give you your transaction status or an error report.
+This API will return to you a String which give you the transaction status or an error report.

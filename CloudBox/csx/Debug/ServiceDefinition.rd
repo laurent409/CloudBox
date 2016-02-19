@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CloudBox" generation="1" functional="0" release="0" Id="c4e55ce2-30ee-4b37-9a50-831b6b67859d" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CloudBox" generation="1" functional="0" release="0" Id="47e22249-3bab-4326-bf72-f3dcd3f69c88" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="CloudBoxGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -42,7 +42,7 @@
       </maps>
       <components>
         <groupHascomponents>
-          <role name="WCFServiceWebRole1" generation="1" functional="0" release="0" software="L:\DotNET\Projets C#\CloudBox\CloudBox\csx\Debug\roles\WCFServiceWebRole1" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="-1" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
+          <role name="WCFServiceWebRole1" generation="1" functional="0" release="0" software="C:\Users\Aymeric DAURELLE\Documents\Visual Studio 2015\Projects\CloudBox\CloudBox\csx\Debug\roles\WCFServiceWebRole1" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="-1" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="Endpoint1" protocol="http" portRanges="80" />
             </componentports>
@@ -70,9 +70,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="f9cfae41-ca17-43e5-b090-181a03f105bb" ref="Microsoft.RedDog.Contract\ServiceContract\CloudBoxContract@ServiceDefinition">
+    <implementation Id="d346008f-ee3a-4592-9a6d-024ee679b2a3" ref="Microsoft.RedDog.Contract\ServiceContract\CloudBoxContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="15410a02-feb3-4a5e-8e34-68e3247f86d1" ref="Microsoft.RedDog.Contract\Interface\WCFServiceWebRole1:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="1ec5ef99-97e5-42fc-b823-430059f7d31b" ref="Microsoft.RedDog.Contract\Interface\WCFServiceWebRole1:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/CloudBox/CloudBoxGroup/WCFServiceWebRole1:Endpoint1" />
           </inPort>

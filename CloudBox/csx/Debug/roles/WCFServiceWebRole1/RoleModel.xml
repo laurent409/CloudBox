@@ -24,14 +24,14 @@
     <Property name="SetConfiguration" value="Configuration=Debug" />
     <Property name="SetPlatform" value="Platform=AnyCPU" />
     <Property name="RoleTargetFramework" value="v4.5" />
-    <Property name="OutputDir" value="L:\DotNET\Projets C#\CloudBox\CloudBox\obj\Debug\WCFServiceWebRole1\" />
+    <Property name="OutputDir" value="C:\Users\Aymeric DAURELLE\Documents\Visual Studio 2015\Projects\CloudBox\CloudBox\obj\Debug\WCFServiceWebRole1\" />
     <Property name="EntryPoint" value="WCFServiceWebRole1.dll" />
-    <Property name="SourceDir" value="L:\DotNET\Projets C#\CloudBox\WCFServiceWebRole1\" />
-    <Property name="SitePhysicalPath" value="L:\DotNET\Projets C#\CloudBox\WCFServiceWebRole1\" />
+    <Property name="SourceDir" value="C:\Users\Aymeric DAURELLE\Documents\Visual Studio 2015\Projects\CloudBox\WCFServiceWebRole1\" />
+    <Property name="SitePhysicalPath" value="C:\Users\Aymeric DAURELLE\Documents\Visual Studio 2015\Projects\CloudBox\WCFServiceWebRole1\" />
     <Property name="TargetRuntimeVersion" value="v4.0" />
   </Properties>
   <Sites>
-    <Site name="Web" physicalDirectory="L:\DotNET\Projets C#\CloudBox\WCFServiceWebRole1\">
+    <Site name="Web" physicalDirectory="C:\Users\Aymeric DAURELLE\Documents\Visual Studio 2015\Projects\CloudBox\WCFServiceWebRole1\">
       <Bindings>
         <Binding name="Endpoint1" endpointName="Endpoint1" />
       </Bindings>

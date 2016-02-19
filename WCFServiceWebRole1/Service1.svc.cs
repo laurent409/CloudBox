@@ -228,21 +228,36 @@ namespace WCFServiceWebRole1
                 Dictionary<String, String> data = JsonConvert.DeserializeObject<Dictionary<String, String>>(json);
 
                 String blob = "archives";
-                String pathFolder = data["pathFolder"].ToString();
-                string[] tNameFolder = pathFolder.Split(new[] { "\\" }, StringSplitOptions.None);
-                string nameFolder = tNameFolder[tNameFolder.Count() - 1].ToString();
+                String namePathFolder = data["namePathFolder"].ToString();
+                String nameLocalPath = "C:\\" + blob + "\\" + namePathFolder;
+                DirectoryInfo di = new DirectoryInfo(nameLocalPath);
+                di.Create();
+
+                foreach (IListBlobItem item in r._container.ListBlobs(namePathFolder, true))
+                {
+                    string nameFileDownload = item.Uri.Segments.Last();
+                    CloudBlockBlob blockBlobDl = r._container.GetBlockBlobReference(namePathFolder + "\\" + nameFileDownload);
+                    using (var fileStream = System.IO.File.OpenWrite(nameLocalPath+ "\\" + nameFileDownload))
+                    {
+                        blockBlobDl.DownloadToStream(fileStream);
+                    }
+                    
+                }
+                String pathFolderZipped = Path.GetFileName(namePathFolder) + ".zip";
+                String pathLocalZipped = nameLocalPath + ".zip";
                 using (ZipFile zip = new ZipFile())
                 {
-                    zip.AddDirectory(pathFolder);
-                    zip.Save(pathFolder+".zip");
+                    zip.AddDirectory(nameLocalPath);
+                    zip.Save(pathLocalZipped);
                 }
-                String pathFolderZipped = pathFolder + ".zip";
-                CloudBlockBlob blockBlob = r._container.GetBlockBlobReference(blob + "\\" + nameFolder+".zip");
-                using (var fileStream = System.IO.File.OpenRead(pathFolderZipped))
+
+                CloudBlockBlob blockBlobUpl = r._container.GetBlockBlobReference(blob + "\\" + pathFolderZipped);
+                using (var fileStream = System.IO.File.OpenRead(pathLocalZipped))
                 {
-                    blockBlob.UploadFromStream(fileStream);
+                    blockBlobUpl.UploadFromStream(fileStream);
                 }
-                return "Your folder was zipped and uploaded to archive blob";
+
+                return "Your folder was zipped and uploaded to archive blob - A folder \"archives\" was created in disk C:";
             }
             catch (Exception e)
             {
